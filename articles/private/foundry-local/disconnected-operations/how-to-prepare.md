@@ -44,19 +44,10 @@ Before you begin, ensure the following components are available:
 
 Download the Foundry Local extension expansion pack in a connected environment, transfer it to your disconnected environment, and then install it on the Azure Local Disconnected Operations machine.
 
-1. Download the Foundry Local extension expansion pack from [https://aka.ms/azurelocal-pxp-microsoft-foundrylocal-k8sextension](https://aka.ms/azurelocal-pxp-microsoft-foundrylocal-k8sextension).
-1. Validate the package name and version.
-
-    **Package naming convention**
-
-    `azurelocal.pxp.microsoft.foundrylocal.k8sextension.<BUILD_VERSION>.zip`
-
-    Example:
-
-    `azurelocal.pxp.microsoft.foundrylocal.k8sextension.0.260520.7.zip`
-
-1. Transfer the expansion pack to the disconnected Azure Local environment.
-1. Run the following commands on the `Azure Local Disconnected Operations` machine to install the expansion pack.
+1. Download the latest [Foundry Local extension expansion pack](https://aka.ms/azurelocal-pxp-microsoft-foundrylocal-k8sextension).
+   For additional versions and release notes, see the (Foundry Local Disconnected Catalog)[https://aka.ms/azure-local-disconnected-operations-foundrylocal].
+2. Transfer the expansion pack to the disconnected Azure Local environment.
+3. Run the following commands on the `Azure Local Disconnected Operations` machine to install the expansion pack.
 
     Replace `<PATH_TO_EXPANSION_PACK>` with the local path to the expansion pack zip file and `<PATH_TO_ALDO_MODULES>` before you run the command.
 
