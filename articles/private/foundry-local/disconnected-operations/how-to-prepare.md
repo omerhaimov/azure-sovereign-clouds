@@ -23,8 +23,8 @@ This article outlines the prerequisites and steps to download and import the Fou
 
 Before you begin, ensure the following components are available:
 
-* Azure Local Disconnected Operations is installed on-premises. The minimum supported version is `2604.3.0`.
-* An AKS Arc cluster on Azure Local, registered with Azure Arc as a `connectedClusters` resource.
+* Azure Local Disconnected Operations is installed on-premises. The minimum supported version for each extension version can be found in the [Foundry Local Disconnected Catalog](https://aka.ms/azure-local-disconnected-operations-foundrylocal).
+* A Kubernetes Arc cluster on Azure Local, registered with Azure Arc as a `connectedClusters` resource.
 
     | Requirement | Minimum | Recommended |
     |---|---|---|
@@ -45,7 +45,7 @@ Before you begin, ensure the following components are available:
 Download the Foundry Local extension expansion pack in a connected environment, transfer it to your disconnected environment, and then install it on the Azure Local Disconnected Operations machine.
 
 1. Download the latest [Foundry Local extension expansion pack](https://aka.ms/azurelocal-pxp-microsoft-foundrylocal-k8sextension).
-   For additional versions and release notes, see the (Foundry Local Disconnected Catalog)[https://aka.ms/azure-local-disconnected-operations-foundrylocal].
+   For additional versions and release notes, see the [Foundry Local Disconnected Catalog](https://aka.ms/azure-local-disconnected-operations-foundrylocal).
 2. Transfer the expansion pack to the disconnected Azure Local environment.
 3. Run the following commands on the `Azure Local Disconnected Operations` machine to install the expansion pack.
 
